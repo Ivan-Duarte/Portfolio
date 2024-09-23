@@ -1,6 +1,13 @@
-# Ivan Germano Rosendo de Oliveira Duarte
 
+<div align="center">
+
+<h1>Ivan Germano Rosendo de Oliveira Duarte</h1>
+    
 <img src="https://github.com/Ivan-Duarte/Portfolio/blob/main/img/profile_photo.png" alt="Foto" width="300" height="300"/>
+    
+</div>
+
+<hr>
 
 Meu nome é Ivan Germano Rosendo de Oliveira Duarte e tenho 23 anos. Iniciei meus estudos na área de TI em 2016, quando ingressei na ETEC Machado de Assis, Caçapava-SP, no curso de Tecnologia da Informação. Desde cedo, percebi uma predisposição para o ramo da TI e, já no Técnico pude ter meu primeiro contato com algoritmos e lógica de programação, o que despertou em mim uma grande curiosidade na área de programação. O que mais me fascina no Desenvolvimento de Sistemas é o sentimento de criação e a infinidade de combinações de linguagens, ferramentas, frameworks e métodos convergindo para gerar soluções que beneficiam as pessoas. Mas, para que isso fosse possível, sabia que precisaria me aprofundar ainda mais, e o curso técnico sozinho não atenderia minhas aspirações. Isso me trouxe à <a href="https://fatecsjc-prd.azurewebsites.net/"><b>_FATEC Jessen Vidal_</b></a> em São José dos Campos-SP, para o curso de Análise e Desenvolvimento de Sistemas. 
 
@@ -47,7 +54,7 @@ Fica a dica! 😄👍
     <tr>
         <th> LP e Marcação</th>
         <th>Frameworks Libs</th>
-        <th>BD</th>
+        <th>Banco de Dados</th>
         <th>DevOps e Servers</th>
         <th>IDEs e Editores</th>
         <th>Metodologias</th>
@@ -97,7 +104,7 @@ Fica a dica! 😄👍
             <a href="https://netbeans.apache.org/front/main/index.html"><img src = "https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/></a>
         </td>
         <td>
-            <a href="https://pt.smartsheet.com/"><img src = "https://github.com/Ivan-Duarte/Portfolio/blob/main/img/smartsheet_logo.PNG"/></a>
+            <a href="https://pt.smartsheet.com/"><img src = "https://github.com/Ivan-Duarte/Portfolio/blob/main/img/smartsheet_logo.PNG" width="50%"/></a>
         </td>
         <td>
             <a href="https://trello.com/pt-BR"><img src = "https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/></a>
@@ -226,6 +233,8 @@ Fica a dica! 😄👍
         </td>
     </tr>
 </table>
+
+<hr>
 
 ## 💼 Meus Projetos
 
