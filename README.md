@@ -43,17 +43,7 @@ table>tr*8>td*8
 Nesse caso estamos criando uma tabela com oito linhas e oito colunas.<br>
 Fica a dica! 😄👍
 
-<style>
-    table {
-        width: 100%;
-        table-layout: fixed;
-    }
-    th, td {
-        text-align: center;
-    }
-</style>
-
-<table style="align: center; text-align: center">
+<table align="center">
     <tr>
         <th> LP e Marcação</th>
         <th>Frameworks Libs</th>
@@ -64,7 +54,7 @@ Fica a dica! 😄👍
         <th>Gestão</th>
         <th>Design</th>
     </tr>
-    <tr>
+    <tr align="center">
         <td>
             <a href="https://www.python.org/"><img src = "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/></a>
         </td>
@@ -90,7 +80,7 @@ Fica a dica! 😄👍
             <a href="https://help.figma.com/hc/en-us"><img src = "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>
             <a href="https://www.java.com/pt-BR/"><img src = "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
         </td>
@@ -116,7 +106,7 @@ Fica a dica! 😄👍
             <a href="https://www.canva.com/"><img src = "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td><a href="https://nodejs.org/en"><img src = "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></a></td>
         <td>
             <a href="https://nestjs.com/"><img src = "https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/></a> 
@@ -131,16 +121,13 @@ Fica a dica! 😄👍
             <a href="https://eclipseide.org/"><img src = "https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td><a href="https://www.typescriptlang.org/"><img src = "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/></a></td>
         <td>   
             <a href="https://nextjs.org/"><img src = "https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/></a>
@@ -155,16 +142,13 @@ Fica a dica! 😄👍
             <a href="https://www.spyder-ide.org/"><img src = "https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon"/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td><a href="https://nodejs.org/en"><img src = "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/></a></td>
         <td>
             <a href="https://fastapi.tiangolo.com/"><img src = "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/></a>    
@@ -176,114 +160,69 @@ Fica a dica! 😄👍
             <a href="https://www.postman.com/"><img src = "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/></a>  
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td><a href="https://html.spec.whatwg.org/multipage/"><img src = "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a></td>
         <td>
             <a href="https://expressjs.com/pt-br/"><img src = "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/></a>    
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
             <a href="https://insomnia.rest/"><img src = "https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/></a>    
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/></a></td>
         <td>
             <a href="https://getbootstrap.com/"><img src = "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/></a>    
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
             <a href="https://www.apache.org/"><img src = "https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white"/></a>    
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>
-            <a href=""><img src = ""/></a>
+        </td>
+        <td>  
         </td>
         <td>
-            <a href=""><img src = ""/></a>    
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
             <a href="https://nginx.org/en/"><img src = "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
         </td>
         <td>
-            <a href=""><img src = ""/></a>
-        </td>
-    </tr>
-    <tr>
-        <td><a href=""><img src = ""/></a></td>
-        <td>
-            <a href=""><img src = ""/></a>    
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
-        </td>
-        <td>
-            <a href=""><img src = ""/></a>
         </td>
     </tr>
 </table>
