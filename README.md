@@ -104,7 +104,7 @@ Fica a dica! 😄👍
             <a href="https://netbeans.apache.org/front/main/index.html"><img src = "https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/></a>
         </td>
         <td>
-            <a href="https://pt.smartsheet.com/"><img src = "https://github.com/Ivan-Duarte/Portfolio/blob/main/img/smartsheet_logo.PNG" width="50%"/></a>
+            <a href="https://pt.smartsheet.com/"><img src = "https://github.com/Ivan-Duarte/Portfolio/blob/main/img/smartsheet_logo.PNG" width="65%"/></a>
         </td>
         <td>
             <a href="https://trello.com/pt-BR"><img src = "https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/></a>
