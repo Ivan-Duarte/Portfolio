@@ -329,3 +329,107 @@ Durante o desenvolvimento deste projeto, tive alguns desáfios com minha equipe,
 Por ser uma pessoa naturalmente sistemática, senti que precisava me adaptar ao ritmo do time e aprender a ser mais *flexível* na *resolução de problemas* e na *gestão das tarefas*. No entanto, devido ao meu conhecimento defasado em alguns aspectos técnicos na época, eu não me sentia tão confiante para expressar minhas opiniões nas reuniões como faço hoje.
 
 Essa experiência me ajudou a desenvolver minha autoconfiança e a compreender a importância de contribuir ativamente com ideias, mesmo sem ter total certeza sobre um tema, algo que aplico positivamente nos projetos em que trabalho atualmente.
+
+---
+
+### Terceiro Semestre (2023-1) | (S.O.G.A.P) Sistema de Organização, Gerenciamento e Auditoria de Processos.🔄
+
+O projeto desenvolvido no terceiro semestre do curso teve como cliente a <a href="https://www.ionic.health/"><b>Ionic Health</b></a>, uma empresa localizada em São José dos Campos - SP, especializada no desenvolvimento de soluções tecnológicas voltadas para a saúde. Por meio de plataformas digitais e dispositivos inteligentes, a Ionic Health busca simplificar o acesso a informações e tratamentos, proporcionando uma experiência eficiente e acessível para seus clientes.
+
+A empresa parceira enfrentava desafios relacionados à organização, gestão e auditoria de processos internos. A falta de uma solução centralizada dificultava a visualização e controle de atividades, resultando em atrasos e falta de transparência operacional.
+
+Como solução a minha equipe desenvolveu o Sistema de Organização, Gerenciamento e Auditoria de Processos (S.O.G.A.P.), uma aplicação web que centraliza e facilita o controle de processos. Com uma interface intuitiva e funcionalidades abrangentes, o sistema permite gerenciar atividades, realizar auditorias e visualizar relatórios, melhorando a eficiência e a transparência das operações. As principais funcionalidades incluem:
+
+<ul>
+    <li>
+    <b>Criar e Gerenciar Processos e Etapas:</b> Esta funcionalidade é essencial, pois permite a criação, organização e adaptação de processos e etapas. Sem ela, o sistema não poderia cumprir seu objetivo principal de estruturar e gerenciar o progresso dos processos dentro da empresa.
+    </li>
+    <li>
+    <b>Fornecer e Validar Evidências:</b> Anexar e validar evidências é fundamental para assegurar que cada etapa do processo foi concluída corretamente. Essa funcionalidade garante a integridade e a verificação do trabalho realizado, sendo vital para a auditoria e controle de qualidade.
+    </li>
+    <li>
+    <b>Autenticação e Segurança:</b> A autenticação de usuários, incluindo a opção de autenticação de dois fatores, para garantir a segurança do acesso ao sistema e a proteção de informações sensíveis.
+    </li>
+    <b>Notificações de Prazo e Status:</b> As notificações automatizadas ajudam na gestão eficiente dos processos, alertando usuários sobre prazos e mudanças de status. Isso garante que os processos sejam acompanhados e concluídos de forma pontual e organizada.
+    </li>
+</ul>
+
+A solução SOGAP desempenha um papel crucial ao centralizar e automatizar a gestão de processos dentro da <a href="https://www.ionic.health/"><b>Ionic Health</b></a>, proporcionando maior controle, transparência e eficiência. Com funcionalidades que garantem a segurança dos dados, acompanhamento preciso de prazos e facilidade na auditoria, o sistema permite que empresas otimizem suas operações e tomem decisões mais informadas, reduzindo erros e aumentando a produtividade.
+
+<h4><details><br>
+<summary>🔎 Detalhes ...</summary>
+
+* <b>Tela Inicial </b>
+
+<img src = "img\3SADS\home_screen.png"/>
+
+<br>
+
+* <b>Dashboard C-Level com resumo dos Processos</b>
+
+<img src = "img\3SADS\c_level_dashbord_screen.png"/>
+
+<br>
+
+* <b>Visualização do processo individual</b>
+
+<img src = "img\3SADS\process_view_screen.png"/>
+
+<br>
+
+* <b>Visualização dos Processos Ativos (Prioridade de Finalização)</b>
+
+<img src = "img\3SADS\adm_screen.png"/>
+
+
+</details></h4>
+<br>
+<hr>
+
+#### ✍ Repositório do Projeto: [GitHub - SOGAP](https://github.com/Ivan-Duarte/API_ADS_3SEMESTRE_2023)
+<p>
+    <a href="https://github.com/Ivan-Duarte/API_ADS_3SEMESTRE_2023"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+<hr>
+
+#### 👨‍💻 Tecnologias Utilizadas
+
+* Python - Uma linguagem de programação versátil e poderosa, conhecida por sua sintaxe simples e legibilidade. Amplamente usada para desenvolvimento web, ciência de dados e automação, Python oferece uma vasta gama de bibliotecas e frameworks, facilitando a criação de soluções robustas e eficientes;
+
+* FastAPI - Um framework moderno e de alto desempenho para o desenvolvimento de APIs com Python. FastAPI é conhecido por sua velocidade e simplicidade, permitindo criar rapidamente APIs RESTful eficientes e fáceis de manter, com validação automática e suporte para async;
+
+* Typescript - Uma linguagem de programação que estende o JavaScript adicionando tipos estáticos. TypeScript melhora a segurança e a legibilidade do código, ajudando a detectar erros durante o desenvolvimento e facilitando a manutenção de projetos grandes e complexos;
+
+* React - Uma biblioteca JavaScript desenvolvida pelo Facebook para a construção de interfaces de usuário interativas e dinâmicas. React permite criar componentes reutilizáveis, o que torna o desenvolvimento de aplicações web mais modular e fácil de manter;
+
+* PostgreSQL - Um sistema de gerenciamento de banco de dados relacional de código aberto, conhecido por sua robustez, escalabilidade e conformidade com padrões SQL. PostgreSQL é ideal para armazenar e gerenciar grandes volumes de dados, oferecendo recursos avançados como transações ACID, replicação e suporte a extensões;
+
+* Docker - Uma plataforma que permite criar, distribuir e executar aplicativos em contêineres. Docker garante que o software funcione de maneira consistente em diferentes ambientes, facilitando o desenvolvimento, teste e implantação de aplicações em grande escala.
+
+* GitHub - Plataforma de hospedagem de código-fonte e controle de versão, que permite colaboração em projetos de software usando Git;
+
+* Jira - Ferramenta de gerenciamento de projetos e rastreamento de problemas, amplamente utilizada por equipes ágeis para planejar, monitorar e gerenciar o desenvolvimento de software e outras atividades colaborativas;
+
+* Figma - Plataforma de design colaborativo baseada na nuvem, usada para criar interfaces, protótipos e fluxos de design em tempo real;
+
+* Canva - Plataforma online de design gráfico que permite criar facilmente conteúdos visuais, como apresentações usando templates e ferramentas intuitivas.
+
+#### 👍 Contribuições Pessoais
+
+
+Nesse projeto, atuei como membro do Scrum Development Team,
+
+#### 💪 Hard Skills
+Exercitei as seguintes Hard Skills durante esse projeto:
+
+* Python - Uso com autonomia;
+* FastAPI - Uso com autonomia;
+* React - Uso com autonomia;
+* PostgreSQL - Uso com autonomia;
+* Jira - Consigo ensinar;
+* Figma - Consigo ensinar;
+* Git - Consigo ensinar;
+
+#### 🍀 Soft Skills
+
+
