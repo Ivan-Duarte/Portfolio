@@ -9,7 +9,7 @@
 
 <hr>
 
-Meu nome é Ivan Germano Rosendo de Oliveira Duarte e tenho 23 anos. Iniciei meus estudos na área de TI em 2016, quando ingressei na ETEC Machado de Assis, Caçapava-SP, no curso de Tecnologia da Informação. Desde cedo, percebi uma predisposição para o ramo da TI e, já no Técnico pude ter meu primeiro contato com algoritmos e lógica de programação, o que despertou em mim uma grande curiosidade na área de programação. O que mais me fascina no Desenvolvimento de Sistemas é o sentimento de criação e a infinidade de combinações de linguagens, ferramentas, frameworks e métodos convergindo para gerar soluções que beneficiam as pessoas. Mas, para que isso fosse possível, sabia que precisaria me aprofundar ainda mais, e o curso técnico sozinho não atenderia minhas aspirações. Isso me trouxe à <a href="https://fatecsjc-prd.azurewebsites.net/"><b>_FATEC Jessen Vidal_</b></a> em São José dos Campos-SP, para o curso de Análise e Desenvolvimento de Sistemas. 
+Meu nome é Ivan Germano Rosendo de Oliveira Duarte e tenho 24 anos. Iniciei meus estudos na área de TI em 2016, quando ingressei na ETEC Machado de Assis, Caçapava-SP, no curso de Tecnologia da Informação. Desde cedo, percebi uma predisposição para o ramo da TI e, já no Técnico pude ter meu primeiro contato com algoritmos e lógica de programação, o que despertou em mim uma grande curiosidade na área de programação. O que mais me fascina no Desenvolvimento de Sistemas é o sentimento de criação e a infinidade de combinações de linguagens, ferramentas, frameworks e métodos convergindo para gerar soluções que beneficiam as pessoas. Mas, para que isso fosse possível, sabia que precisaria me aprofundar ainda mais, e o curso técnico sozinho não atenderia minhas aspirações. Isso me trouxe à <a href="https://fatecsjc-prd.azurewebsites.net/"><b>_FATEC Jessen Vidal_</b></a> em São José dos Campos-SP, para o curso de Análise e Desenvolvimento de Sistemas. 
 
 Escolhi a FATEC Jessen Vidal por dois motivos principais. O primeiro foi a Aprendizagem por Projeto Integrador (API), que nos permite trabalhar diretamente com projetos práticos. O segundo foi o corpo docente altamente qualificado, com professores e mestres que me proporcionaram uma experiência única e inspiradora.
 
@@ -332,7 +332,7 @@ Essa experiência me ajudou a desenvolver minha autoconfiança e a compreender a
 
 ---
 
-### Terceiro Semestre (2023-1) | (S.O.G.A.P) Sistema de Organização, Gerenciamento e Auditoria de Processos. 🔄
+### Terceiro Semestre (2023-2) | (S.O.G.A.P) Sistema de Organização, Gerenciamento e Auditoria de Processos. 🔄
 
 O projeto desenvolvido no terceiro semestre do curso teve como cliente a <a href="https://www.ionic.health/"><b>Ionic Health</b></a>, uma empresa localizada em São José dos Campos - SP, especializada no desenvolvimento de soluções tecnológicas voltadas para a saúde. Por meio de plataformas digitais e dispositivos inteligentes, a Ionic Health busca simplificar o acesso a informações e tratamentos, proporcionando uma experiência eficiente e acessível para seus clientes.
 
@@ -436,7 +436,7 @@ Também tive que exercitar minha resiliência durante o desenvolvimento da funci
 
 ---
 
-### Quarto Semestre (2023-1) | SIATT Synergy. 🚀
+### Quarto Semestre (2024-1) | SIATT Synergy. 🚀
 
 O projeto desenvolvido no quarto semestre do curso teve como cliente a <a href="https://www.siatt.com.br/siatt/"><b>SIATT</b></a>, uma empresa brasileira especializada no desenvolvimento de sistemas avançados de defesa e tecnologia. Com foco em soluções de alta tecnologia para o setor militar, a SIATT atua em projetos que envolvem engenharia de sistemas, integração de armamentos e desenvolvimento de tecnologias críticas para defesa e segurança nacional. A empresa se destaca por sua expertise em sistemas de guiamento e controle, realizando a integração de sistemas complexos e oferecendo soluções inovadoras e adaptáveis para atender às necessidades das Forças Armadas brasileiras.
 
