@@ -332,7 +332,7 @@ Essa experiência me ajudou a desenvolver minha autoconfiança e a compreender a
 
 ---
 
-### Terceiro Semestre (2023-1) | (S.O.G.A.P) Sistema de Organização, Gerenciamento e Auditoria de Processos.🔄
+### Terceiro Semestre (2023-1) | (S.O.G.A.P) Sistema de Organização, Gerenciamento e Auditoria de Processos. 🔄
 
 O projeto desenvolvido no terceiro semestre do curso teve como cliente a <a href="https://www.ionic.health/"><b>Ionic Health</b></a>, uma empresa localizada em São José dos Campos - SP, especializada no desenvolvimento de soluções tecnológicas voltadas para a saúde. Por meio de plataformas digitais e dispositivos inteligentes, a Ionic Health busca simplificar o acesso a informações e tratamentos, proporcionando uma experiência eficiente e acessível para seus clientes.
 
@@ -363,19 +363,13 @@ A solução SOGAP desempenha um papel crucial ao centralizar e automatizar a ges
 
 <img src = "img\3SADS\home_screen.png"/>
 
-<br>
-
 * <b>Dashboard C-Level com resumo dos Processos</b>
 
 <img src = "img\3SADS\c_level_dashbord_screen.png"/>
 
-<br>
-
 * <b>Visualização do processo individual</b>
 
 <img src = "img\3SADS\process_view_screen.png"/>
-
-<br>
 
 * <b>Visualização dos Processos Ativos (Prioridade de Finalização)</b>
 
@@ -416,8 +410,11 @@ A solução SOGAP desempenha um papel crucial ao centralizar e automatizar a ges
 
 #### 👍 Contribuições Pessoais
 
+Nesse projeto, atuei como membro do Scrum Development Team, contribuindo no desenvolvimento do Frontend e na integração com o Backend. Minhas principais atividades incluíram a implementação de funcionalidades essenciais para a experiência do usuário. Desenvolvi a função de Fetch para o formulário principal, responsável pelo cadastro de novos processos, permitindo o envio de dados como nome, descrição e prazos. Também implementei a Autenticação de Dois Fatores (2FA) utilizando OAuth 2.0, criando toda a lógica necessária e integrando um modal de 2FA com QR code compatível com o Google Authenticator, para aumentar a segurança durante o login. Além disso, participei da revisão de código (Code Review), destacando minha atuação no pull request #12, que envolvia a implementação de exclusões lógicas de evidências de processos, garantindo a qualidade do código e otimizando o gerenciamento de requisições e etapas.
 
-Nesse projeto, atuei como membro do Scrum Development Team,
+Contribuí também na finalização do "Card_Home", ajustando a página inicial para incluir componentes de cards que aprimoram a visualização de processos e etapas. Desenvolvi a função de exportação de PDFs usando a biblioteca "pdfMake" para TypeScript, permitindo que os usuários gerem relatórios diretamente na aplicação. Ajustei essa funcionalidade para incluir o nome do gerente nos relatórios e finalizei a lógica para que usuários de nível C-Level pudessem exportar PDFs, otimizando o layout dos cards de etapas e processos para uma apresentação mais clara e organizada. Durante esse processo, realizei a exclusão de arquivos não utilizados, como o imageConverter.ts, para manter o repositório limpo e bem estruturado.
+
+No Backend, foquei na implementação da Autenticação de Dois Fatores (2FA), garantindo uma integração perfeita com as funcionalidades do frontend. Desenvolvi novas rotas para 2FA e utilizei a documentação do FastAPI para testes dessas rotas, facilitando uma comunicação segura e confiável entre frontend e backend, assegurando que a experiência do usuário fosse segura e intuitiva.
 
 #### 💪 Hard Skills
 Exercitei as seguintes Hard Skills durante esse projeto:
@@ -426,10 +423,155 @@ Exercitei as seguintes Hard Skills durante esse projeto:
 * FastAPI - Uso com autonomia;
 * React - Uso com autonomia;
 * PostgreSQL - Uso com autonomia;
+* Docker - Consigo ensinar;
 * Jira - Consigo ensinar;
 * Figma - Consigo ensinar;
 * Git - Consigo ensinar;
 
 #### 🍀 Soft Skills
+
+Durante o projeto, enfrentei desafios significativos que me permitiram aplicar e desenvolver diversas soft skills. Um dos momentos mais marcantes ocorreu durante os code reviews, onde surgiram divergências técnicas que um membro do time tentou resolver de forma unilateral, sem consenso. Aproveitei minha habilidade de comunicação e assertividade para sugerir uma votação, garantindo que todos os membros da equipe tivessem voz na decisão e promovendo um espírito de colaboração e trabalho em equipe. Essa abordagem ajudou a manter a harmonia e o alinhamento do time, essencial para o progresso das sprints.
+
+Também tive que exercitar minha resiliência durante o desenvolvimento da funcionalidade de autenticação de dois fatores. Passei mais de três horas depurando um problema que persistia, revisando o código várias vezes até encontrar a raiz da questão: uma seção de código que estava comentada incorretamente, usando ''' e '' ao invés do padrão ''' ''' do Python. Esse detalhe ocultava parte do código e dificultava a identificação do erro, tornando a depuração um desafio considerável. A minha flexibilidade em lidar com o imprevisto e minha capacidade de solucionar problemas foram essenciais para não desistir, mesmo após diversas tentativas frustradas. No final, consegui identificar e corrigir a falha, permitindo que a funcionalidade fosse implementada corretamente e que o projeto seguisse em frente.
+
+---
+
+### Quarto Semestre (2023-1) | SIATT Synergy. 🚀
+
+O projeto desenvolvido no quarto semestre do curso teve como cliente a <a href="https://www.siatt.com.br/siatt/"><b>SIATT</b></a>, uma empresa brasileira especializada no desenvolvimento de sistemas avançados de defesa e tecnologia. Com foco em soluções de alta tecnologia para o setor militar, a SIATT atua em projetos que envolvem engenharia de sistemas, integração de armamentos e desenvolvimento de tecnologias críticas para defesa e segurança nacional. A empresa se destaca por sua expertise em sistemas de guiamento e controle, realizando a integração de sistemas complexos e oferecendo soluções inovadoras e adaptáveis para atender às necessidades das Forças Armadas brasileiras.
+
+A SIATT enfrentava dificuldades na organização e gerenciamento de suas reuniões, especialmente devido à variedade de formatos disponíveis, como reuniões presenciais, online e híbridas. A falta de uma plataforma centralizada dificultava a reserva eficiente de salas, a coordenação dos participantes e a gestão de agendas, resultando em problemas de sobreposição de horários, baixa participação e dificuldades na integração de recursos digitais e presenciais.
+
+Para resolver esses desafios, a minha equipe desenvolveu o SIATT Synergy, uma aplicação web que centraliza e automatiza o processo de agendamento de reuniões. O sistema permite que usuários agendem reuniões em diferentes formatos (presenciais, online e híbridas), visualizem a disponibilidade de salas, gerenciem a ocupação de participantes e recebam notificações automáticas por e-mail. Além disso, a aplicação integra-se a plataformas como Zoom e Outlook, facilitando a comunicação e a organização, oferecendo uma experiência de agendamento simplificada e eficiente para todos os membros da organização.
+
+<ul>
+    <li>
+    <b>Agendamento Flexível de Reuniões:</b> Permite o agendamento de reuniões em formatos presencial, online e híbrido, com suporte para reservas simultâneas de salas físicas e links de conferências virtuais.
+    </li>
+    <li>
+    <b>Cadastro e Gestão de Salas e Usuários:</b> Facilita o cadastro, edição e exclusão de usuários e salas de reunião, com restrições de acesso e níveis de permissão configuráveis.
+    </li>
+    <li>
+    <b>Integração com Plataformas Digitais:</b> Integração direta com Zoom para criação automática de links de reunião garantindo a disponibilidade de todos os participantes e salas.
+    </li>
+    <b>Notificações e Confirmações Automatizadas:</b> Envio de e-mails automáticos para confirmação de agendamentos, lembretes de reuniões e notificações sobre alterações ou cancelamentos, mantendo todos informados e organizados.
+    </li>
+    <li>
+    <b>Visualização e Controle de Agendas:</b> Interface intuitiva que permite aos usuários visualizar suas reuniões agendadas, gerenciar solicitações e cancelar reuniões se necessário, garantindo uma gestão eficiente das agendas.
+    </li>
+</ul>
+
+O SIATT Synergy oferece uma solução robusta e eficiente para os desafios de gerenciamento de reuniões enfrentados pela <a href="https://www.siatt.com.br/siatt/"><b>SIATT</b></a>. Ao centralizar o agendamento e integrar ferramentas digitais, a aplicação melhora significativamente a organização e a comunicação entre os membros da equipe. Com funcionalidades que atendem a diversos tipos de reunião e a capacidade de enviar notificações automáticas, a solução promove uma gestão otimizada das agendas e facilita a colaboração entre todos os envolvidos, resultando em maior produtividade e eficiência operacional.
+
+<h4><details><br>
+<summary>🔎 Detalhes ...</summary>
+
+* <b>Tela Inicial do Administrador (ADM) </b>
+
+<img src = "img\4SADS\adm_screen.PNG"/>
+
+* <b>Tela de controle de usuários cadastrados (ADM)</b>
+
+<img src = "img\4SADS\adm_usercontrol_screen.PNG"/>
+
+* <b>Tela de cadastro de usuários (ADM)</b>
+
+<img src = "img\4SADS\user_registration_screen.PNG"/>
+
+* <b>Tela de Login</b>
+
+<img src = "img\4SADS\login_screen.PNG"/>
+
+* <b>Tela de Registro de Novas Salas</b>
+
+<img src = "img\4SADS\room_registration_screen.PNG"/>
+
+* <b>Tela de Visualização de Salas Cadastradas (ADM)</b>
+
+<img src = "img\4SADS\rooms_screen.PNG"/>
+
+* <b>Tela de Agendamento</b>
+
+<img src = "img\4SADS\schedule_creation_screen.PNG"/>
+
+* <b>Tela de Agendamento - Alternativa</b>
+
+<img src = "img\4SADS\schedule_creation_alt_screen.PNG"/>
+
+* <b>Tela de Visualização de Salas Cadastradas (ADM)</b>
+
+<img src = "img\4SADS\rooms_screen.PNG"/>
+
+* <b>Tela de Visualização de Agendamentos Ativos</b>
+
+<img src = "img\4SADS\schedule_screen.PNG"/>
+
+
+</details></h4>
+<br>
+<hr>
+
+#### ✍ Repositório do Projeto: [GitHub - SIATT Synergy](https://github.com/Ivan-Duarte/API_ADS_4SEMESTRE_2024.1)
+<p>
+    <a href="https://github.com/Ivan-Duarte/API_ADS_4SEMESTRE_2024.1"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+<hr>
+
+#### 👨‍💻 Tecnologias Utilizadas
+
+* NestJS - Um framework para Node.js que facilita a construção de aplicações server-side escaláveis e eficientes. Baseado em conceitos do TypeScript, o NestJS adota uma arquitetura modular, facilitando a organização do código e a integração com diferentes bibliotecas, tornando-o ideal para o desenvolvimento de APIs robustas e de fácil manutenção;
+
+* NextJS - Um framework para React que permite a construção de aplicações web modernas com funcionalidades como renderização no servidor (SSR) e geração de páginas estáticas (SSG). Next.js oferece um desempenho otimizado e uma experiência de desenvolvimento simplificada, ideal para criar aplicações web rápidas, responsivas e SEO-friendly;
+
+* Chakra-UI - Uma biblioteca de componentes para React que permite criar interfaces de usuário acessíveis, responsivas e esteticamente agradáveis com facilidade. O Chakra UI oferece uma abordagem modular e customizável, permitindo que os desenvolvedores construam rapidamente interfaces consistentes e intuitivas para suas aplicações;
+
+* Typescript - Uma linguagem de programação que estende o JavaScript adicionando tipos estáticos. TypeScript melhora a segurança e a legibilidade do código, ajudando a detectar erros durante o desenvolvimento e facilitando a manutenção de projetos grandes e complexos;
+
+* React - Uma biblioteca JavaScript desenvolvida pelo Facebook para a construção de interfaces de usuário interativas e dinâmicas. React permite criar componentes reutilizáveis, o que torna o desenvolvimento de aplicações web mais modular e fácil de manter;
+
+* MySQL - Sistema de gerenciamento de banco de dados relacional de código aberto, amplamente utilizado para armazenar e gerenciar dados em aplicações web e empresariais;
+
+* Docker - Uma plataforma que permite criar, distribuir e executar aplicativos em contêineres. Docker garante que o software funcione de maneira consistente em diferentes ambientes, facilitando o desenvolvimento, teste e implantação de aplicações em grande escala.
+
+* GitHub - Plataforma de hospedagem de código-fonte e controle de versão, que permite colaboração em projetos de software usando Git;
+
+* Jira - Ferramenta de gerenciamento de projetos e rastreamento de problemas, amplamente utilizada por equipes ágeis para planejar, monitorar e gerenciar o desenvolvimento de software e outras atividades colaborativas;
+
+* Figma - Plataforma de design colaborativo baseada na nuvem, usada para criar interfaces, protótipos e fluxos de design em tempo real;
+
+* Canva - Plataforma online de design gráfico que permite criar facilmente conteúdos visuais, como apresentações usando templates e ferramentas intuitivas.
+
+#### 👍 Contribuições Pessoais
+
+Nesse projeto atuei como Scrum Maste, fui responsável por gerenciar todo o ciclo da metodologia Scrum, assegurando que as cerimônias fossem realizadas de forma eficaz e ajudando a equipe a superar barreiras técnicas e sociais. Uma das inovações que implementei foi a introdução do conceito de "Sprint 0", que permitiu à equipe um período inicial de preparação para se familiarizar com o projeto e as tecnologias a serem utilizadas. Isso facilitou uma integração mais rápida e um melhor aproveitamento do tempo desde o início.
+
+Durante as sprints, utilizei técnicas de autoavaliação para identificar dificuldades dos membros da equipe, realizando reuniões de Team Building para integrar todos com as novas tecnologias. Para ajudar os membros que estavam com mais dificuldades, direcionei conteúdos em mídia digital e vídeos, e sugeri que desenvolvedores seniores apadrinhassem colegas menos experientes, promovendo um aprendizado colaborativo e garantindo a continuidade do projeto. Em conjunto com o Product Owner (PO), trabalhei na elaboração de um backlog que equilibrasse as necessidades do cliente com as capacidades técnicas da equipe, utilizando ferramentas como SMART e Planning Poker para definir User Stories e estimar o esforço necessário para cada atividade.
+
+Além de liderar reuniões de Sprint Planning, também conduzi Sprint Reviews e Sprint Retrospectives, utilizando a análise SWOT para identificar pontos de melhoria e a técnica dos 5 Porquês para investigar e resolver a raiz de possíveis problemas. Gerenciei o repositório GIT e a ferramenta de gestão JIRA, garantindo um fluxo de trabalho claro e organizado, além de supervisionar o Drive da organização, estruturando a documentação técnica do projeto para facilitar o acesso e a consulta.
+
+Do ponto de vista técnico, contribui diretamente para o desenvolvimento do backend e frontend do projeto. No backend, implementei funcionalidades essenciais, como rotas para reserva de salas virtuais, inclusão de novos campos em entidades, e a integração de tokens de atualização para melhorar a segurança. No frontend, trabalhei na validação de formulários, criação de páginas de visualização e exclusão de salas e usuários, além de melhorias significativas na acessibilidade, como adicionar ícones e estilos que garantiram uma melhor experiência ao usuário. Também fui responsável pela documentação e estruturação do banco de dados, criando modelos lógicos e relacionais e mantendo um histórico claro de versões para permitir a auditoria do progresso.
+
+#### 💪 Hard Skills
+Exercitei as seguintes Hard Skills durante esse projeto:
+
+* Typescript - Uso com autonomia;
+* NestJS - Uso com autonomia;
+* NextJS - Uso com autonomia;
+* React - Uso com autonomia;
+* MySQL - Uso com autonomia;
+* Docker - Consigo ensinar;
+* Jira - Consigo ensinar;
+* Figma - Consigo ensinar;
+* Git - Consigo ensinar;
+
+#### 🍀 Soft Skills
+
+Durante o projeto SIATT Synergy, tive a oportunidade de aplicar e aprimorar diversas soft skills essenciais para o papel de Scrum Master e para a gestão de equipes em um ambiente ágil. Uma das habilidades mais exercitadas foi a paciência, especialmente ao lidar com dinâmicas de comando e controle. Identifiquei que um membro com alto conhecimento técnico estava influenciando demais as decisões, o que fazia com que outros integrantes se retraíssem. Para mitigar esse problema, utilizei minha comunicação assertiva e criei um ambiente mais democrático, implementando enquetes e votações para garantir que todos pudessem contribuir e se sentir ouvidos, promovendo assim o trabalho em equipe e a colaboração.
+
+Também enfrentei desafios relacionados à transparência e confiança quando surgiu uma situação delicada envolvendo a comunicação com o cliente. Ao perceber que o Product Owner não estava mantendo um diálogo direto com o cliente, o que prejudicou a equipe, tomei a iniciativa de abordar a questão de maneira construtiva durante a Sprint Review. Essa experiência me ajudou a desenvolver um olhar mais cauteloso e a adotar processos redundantes para evitar falhas na comunicação, aprendendo a importância de combinar clareza e confiança na condução de projetos.
+
+Outro aspecto importante foi a resiliência emocional. Durante uma apresentação para o cliente, fui inesperadamente interrompido por um membro da equipe, o que me causou desconforto. Mantive a calma e transformei o momento em algo leve, lidando com a situação de forma positiva e garantindo que a apresentação continuasse sem problemas. Posteriormente, tratei o assunto de forma assertiva com o integrante, reforçando a importância de resolver questões internas de maneira apropriada.
+
+Além disso, a experiência de gerenciar conflitos e facilitar a integração da equipe me permitiu aprimorar minha liderança. Utilizei questionários de autoavaliação para identificar dificuldades técnicas e organizei sessões de Team Building para integrar melhor os membros da equipe. Também promovi a empatia ao direcionar conteúdos específicos para aqueles que enfrentavam desafios técnicos, e incentivei a mentoria interna entre desenvolvedores seniores e juniores para fortalecer o aprendizado coletivo. O projeto SIATT Synergy foi uma experiência enriquecedora que me permitiu aplicar e desenvolver habilidades como paciência, comunicação assertiva, resiliência, trabalho em equipe, liderança, e empatia, todas fundamentais para o sucesso de qualquer equipe ágil e colaborativa.
 
 
