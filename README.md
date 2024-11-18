@@ -605,13 +605,7 @@ O ClimaTrack é altamente relevante para a <a href="https://www.kersys.com.br/">
 
 <h4><details><br>
 <summary>🔎 Detalhes ...</summary>
-
-* <b>Video Preview da SPINT 1</b> <br>
-  <b>Disclaimer:</b> *ATENÇÃO, essa prévia não representa a qualidade do produto final*
-
-<video controls src="[https://user-images.githubusercontent.com/100942191/190927318-888d711f-c1ab-4541-bde9-361190ca7f67.mp4](https://www.youtube.com/watch?v=TnMFILxzt3g)" width="480" height="270" >">
-</video>
-
+    
 * <b>Tela Inicial de Busca </b>
 
 <img src = "img\5SADS\SearchScreen.png"/>
