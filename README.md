@@ -670,11 +670,11 @@ No frontend, trabalhei na tela "MyAreas", integrando as rotas do backend para ex
 Ao longo do projeto, foquei em garantir a qualidade do código com práticas de modularização e validação rigorosa de dados, além de otimizar a comunicação entre o frontend e backend. Documentei as alterações realizadas no repositório, atualizando o README para incluir instruções claras sobre novas funcionalidades e o uso de serviços. Essa experiência me permitiu aprofundar habilidades técnicas, como a integração entre backend e frontend, além de fortalecer minha colaboração em equipe e o compromisso com a entrega de uma solução funcional e escalável, alinhada aos objetivos do projeto.
 
 #### 💬 Pull Requests
-    Para demonstrar minha contribuição ao projeto e como documento as implementações realizadas, disponibilizo abaixo os links para os pull requests que fiz para o frontend e backend do sistema:
+Para demonstrar minha contribuição ao projeto e como documento as implementações realizadas, disponibilizo abaixo os links para os pull requests que fiz para o frontend e backend do sistema:
 
 <b>💻Frontend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-FrontEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Frontend</b></a>
 <br>
-<b>🖥 Backend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-BackEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Backend</b></a>
+<b>🧱 Backend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-BackEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Backend</b></a>
 
 *Esses links oferecem uma visão detalhada das funcionalidades desenvolvidas, melhorias realizadas e das práticas de documentação que aplico em cada PR, reforçando minha preocupação com a qualidade do código e a comunicação com a equipe.*
 
