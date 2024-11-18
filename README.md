@@ -574,4 +574,132 @@ Outro aspecto importante foi a resiliência emocional. Durante uma apresentaçã
 
 Além disso, a experiência de gerenciar conflitos e facilitar a integração da equipe me permitiu aprimorar minha liderança. Utilizei questionários de autoavaliação para identificar dificuldades técnicas e organizei sessões de Team Building para integrar melhor os membros da equipe. Também promovi a empatia ao direcionar conteúdos específicos para aqueles que enfrentavam desafios técnicos, e incentivei a mentoria interna entre desenvolvedores seniores e juniores para fortalecer o aprendizado coletivo. O projeto SIATT Synergy foi uma experiência enriquecedora que me permitiu aplicar e desenvolver habilidades como paciência, comunicação assertiva, resiliência, trabalho em equipe, liderança, e empatia, todas fundamentais para o sucesso de qualquer equipe ágil e colaborativa.
 
+---
 
+### Quinto Semestre (2024-2) | ClimaTrack. 🌲
+
+O projeto desenvolvido no quinto semestre do curso teve como cliente a <a href="https://www.kersys.com.br/"><b>Kersys</b></a>, uma empresa brasileira especializada no desenvolvimento de softwares de gestão para o setor florestal e agronegócio. Fundada em 2010, sua sede está localizada em São José dos Campos, São Paulo. A empresa oferece soluções tecnológicas que abrangem desde o planejamento até a execução de operações florestais, com foco em mobilidade, sistematização e gestão estratégica por indicadores. Seus produtos incluem plataformas web e aplicativos móveis que permitem a coleta de dados offline, sincronização de informações e análise de indicadores de produção e produtividade. A Kersys atende a diversos segmentos, como reflorestadoras, consultores florestais, prestadores de serviços e siderúrgicas, proporcionando ferramentas customizadas para otimizar processos produtivos e facilitar a tomada de decisões no campo. 
+
+Os produtores rurais que utilizam o sistema da Kersys enfrentam dificuldades em acompanhar o histórico das condições climáticas de suas lavouras, o que compromete o planejamento das atividades agrícolas e a tomada de decisões estratégicas. A falta de ferramentas acessíveis para registrar e analisar dados como pluviometria e temperatura dificulta a identificação de tendências e padrões, deixando os agricultores vulneráveis a situações críticas, como secas ou chuvas excessivas, que podem impactar diretamente a produtividade e a saúde das plantações.
+
+Para mitigar esse risco, desenvolvemos o <b>ClimaTrack</b> um aplicativo inovador que auxilia os produtores rurais a monitorar e analisar o histórico de condições climáticas de suas lavouras. A solução permite o cadastro de pontos específicos e apresenta gráficos detalhados que mostram a variação de temperatura e pluviometria ao longo do tempo, desde uma data informada até a atual. Além disso, o aplicativo consolida dados mensais e anuais, oferecendo uma visão clara e organizada das condições climáticas. Para aumentar a segurança, ele também emite notificações e alertas em situações críticas, ajudando os agricultores a agir de forma proativa e minimizar riscos. O MVP foca em realizar pesquisas de localidades, obter histórico de temperatura e pluviosidade e salvar as localidades pesquisadas, garantindo uma experiência prática e funcional desde o início.
+
+<ul>
+    <li>
+    <b>Pesquisa de Localidades:</b> Permite aos usuários pesquisar pontos específicos para obter informações climáticas detalhadas, como temperatura e pluviometria.
+    </li>
+    <li>
+    <b>Exibição de Dados Climáticos:</b> Apresenta dados históricos de pluviometria e temperatura com granularidade ajustável (diária, mensal ou anual), auxiliando os agricultores na análise do histórico climático de uma área específica.
+    </li>
+    <li>
+    <b>Salvar Localizações:</b> Possibilita o salvamento de áreas de plantio para monitoramento contínuo, permitindo o acompanhamento do clima e identificação de potenciais problemas.
+    </li>
+    <b>Notificações de Alterações Climáticas Extremas:</b> Gera alertas personalizados para temperaturas e índices de pluviosidade considerados muito altos ou muito baixos em áreas salvas, ajudando na prevenção de danos.
+    </li>
+    <li>
+    <b>Acesso Offline aos Dados:</b> Permite marcar localidades específicas para manter os dados acessíveis sem conexão com a internet, garantindo a usabilidade mesmo em áreas remotas.
+    </li>
+</ul>
+
+O ClimaTrack é altamente relevante para a <a href="https://www.kersys.com.br/"><b>Kersys</b></a> por oferecer uma solução inovadora para o monitoramento climático, atendendo às necessidades do setor agroflorestal. Ao permitir a análise de dados históricos de temperatura e pluviometria, emissão de notificações personalizadas para condições críticas e acesso offline, o sistema capacita os produtores rurais a tomarem decisões estratégicas com maior eficiência. Essa abordagem fortalece o compromisso da Kersys com a inovação no agronegócio, ampliando seu portfólio com uma ferramenta prática, acessível e alinhada às demandas de seus clientes.
+
+<h4><details><br>
+<summary>🔎 Detalhes ...</summary>
+
+* <b>Video Preview da SPINT 1</b> <br>
+  <b>Disclaimer:</b> *ATENÇÃO, essa prévia não representa a qualidade do produto final*
+
+<video controls src="[https://user-images.githubusercontent.com/100942191/190927318-888d711f-c1ab-4541-bde9-361190ca7f67.mp4](https://www.youtube.com/watch?v=TnMFILxzt3g)" width="480" height="270" >">
+</video>
+
+* <b>Tela Inicial de Busca </b>
+
+<img src = "img\5SADS\SearchScreen.png"/>
+
+* <b>Tela de Resultado para Busca da Área</b>
+
+<img src = "img\5SADS\ResultScreen.png"/>
+
+* <b>Tela para Locais Salvos</b>
+
+<img src = "img\5SADS\SavedLocation.png"/>
+
+* <b>Tela para os Meus Locais</b>
+
+<img src = "img\5SADS\MyAreas.png"/>
+
+* <b>Modais presentes na aplicação</b>
+
+<img src = "img\5SADS\modals.png"/>
+
+
+</details></h4>
+<br>
+<hr>
+
+#### ✍ Repositório do Projeto: [GitHub - ClimaTrack](https://github.com/BuzzTech-API/API_ADS_5SEMESTE_2024.2)
+<p>
+    <a href="https://github.com/BuzzTech-API/API_ADS_5SEMESTE_2024.2"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+<hr>
+
+#### 👨‍💻 Tecnologias Utilizadas
+
+* Python - Uma linguagem de programação versátil e poderosa, conhecida por sua sintaxe simples e legibilidade. Amplamente usada para desenvolvimento web, ciência de dados e automação, Python oferece uma vasta gama de bibliotecas e frameworks, facilitando a criação de soluções robustas e eficientes;
+
+* FastAPI - Um framework moderno e de alto desempenho para o desenvolvimento de APIs com Python. FastAPI é conhecido por sua velocidade e simplicidade, permitindo criar rapidamente APIs RESTful eficientes e fáceis de manter, com validação automática e suporte para async;
+
+* Typescript - Uma linguagem de programação que estende o JavaScript adicionando tipos estáticos. TypeScript melhora a segurança e a legibilidade do código, ajudando a detectar erros durante o desenvolvimento e facilitando a manutenção de projetos grandes e complexos;
+
+* React Native - Um framework de desenvolvimento mobile versátil e eficiente, baseado no React, que permite a criação de aplicativos nativos para Android e iOS utilizando JavaScript. Conhecido por sua abordagem de código único, o React Native oferece alta produtividade e desempenho, permitindo que os desenvolvedores criem interfaces modernas e responsivas. Com uma ampla comunidade e suporte para bibliotecas, é ideal para construir soluções robustas e multiplataforma.
+
+* Firebase - Uma plataforma abrangente para desenvolvimento de aplicativos, conhecida por sua facilidade de integração e recursos em tempo real. Oferece serviços como autenticação, banco de dados (SQL e NoSQL), hospedagem, notificações e análise de dados, permitindo que desenvolvedores criem aplicações web e mobile escaláveis e seguras. Com sua arquitetura serverless, o Firebase simplifica o backend e acelera o processo de desenvolvimento, tornando-se uma solução poderosa para projetos modernos e conectados.
+
+* Android Studio - Um ambiente de desenvolvimento integrado (IDE) oficial para o desenvolvimento de aplicativos Android, conhecido por sua interface intuitiva e recursos avançados. Baseado no IntelliJ IDEA, o Android Studio oferece ferramentas poderosas, como editor de código inteligente, emulador de dispositivos, depuração avançada e suporte para testes. Projetado para maximizar a produtividade dos desenvolvedores, é ideal para criar aplicativos Android modernos, escaláveis e de alto desempenho.
+
+* GitHub - Plataforma de hospedagem de código-fonte e controle de versão, que permite colaboração em projetos de software usando Git;
+
+* Jira - Ferramenta de gerenciamento de projetos e rastreamento de problemas, amplamente utilizada por equipes ágeis para planejar, monitorar e gerenciar o desenvolvimento de software e outras atividades colaborativas;
+
+* Figma - Plataforma de design colaborativo baseada na nuvem, usada para criar interfaces, protótipos e fluxos de design em tempo real;
+
+* Canva - Plataforma online de design gráfico que permite criar facilmente conteúdos visuais, como apresentações usando templates e ferramentas intuitivas.
+
+#### 👍 Contribuições Pessoais
+
+Nesse projeto atuei como desenvolvedor na equipe Scrum Dev Team, contribuindo diretamente para a implementação de funcionalidades críticas no backend e frontend do projeto, além de promover melhorias significativas na experiência do usuário e na integração entre as camadas da aplicação.
+
+No backend, comecei com a preparação do ambiente de desenvolvimento, configurando arquivos iniciais como .gitignore e .env_example, além de documentar todo o processo para facilitar a inicialização do ambiente. Desenvolvi a rota GET "climate", responsável por processar os dados enviados pelo frontend e formatá-los em um JSON personalizado, seguindo o padrão estabelecido. Também implementei a rota find_all_locations, que busca e formata todas as localizações salvas no banco Firestore, facilitando o consumo no frontend. Além disso, adicionei uma rota PUT para edição de nomes de locais, garantindo que as alterações fossem realizadas com segurança e consistência.
+
+No frontend, trabalhei na tela "MyAreas", integrando as rotas do backend para exibir informações de localização e clima de forma eficiente e intuitiva. Para isso, implementei os serviços fetchLocations e fetchCurrentClimate, modularizando o código para facilitar sua manutenção e reuso. Também adicionei um indicador de carregamento para melhorar a experiência do usuário durante a obtenção dos dados. Além disso, desenvolvi a funcionalidade para edição de nomes de locais salvos, que incluiu a validação de entradas, feedback visual ao usuário, e estilização aprimorada para proporcionar uma interface mais amigável.
+
+Ao longo do projeto, foquei em garantir a qualidade do código com práticas de modularização e validação rigorosa de dados, além de otimizar a comunicação entre o frontend e backend. Documentei as alterações realizadas no repositório, atualizando o README para incluir instruções claras sobre novas funcionalidades e o uso de serviços. Essa experiência me permitiu aprofundar habilidades técnicas, como a integração entre backend e frontend, além de fortalecer minha colaboração em equipe e o compromisso com a entrega de uma solução funcional e escalável, alinhada aos objetivos do projeto.
+
+#### 💬 Pull Requests
+    Para demonstrar minha contribuição ao projeto e como documento as implementações realizadas, disponibilizo abaixo os links para os pull requests que fiz para o frontend e backend do sistema:
+
+<b>💻Frontend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-FrontEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Frontend</b></a>
+<br>
+<b>🖥 Backend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-BackEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Backend</b></a>
+
+*Esses links oferecem uma visão detalhada das funcionalidades desenvolvidas, melhorias realizadas e das práticas de documentação que aplico em cada PR, reforçando minha preocupação com a qualidade do código e a comunicação com a equipe.*
+
+#### 💪 Hard Skills
+Exercitei as seguintes Hard Skills durante esse projeto:
+
+* Python - Uso com autonomia;
+* FastAPI - Uso com autonomia;
+* Typescript - Uso com autonomia;
+* React Native- Uso com autonomia;
+* FireBase - Uso com autonomia;
+* Jira - Consigo ensinar;
+* Figma - Consigo ensinar;
+* Git - Consigo ensinar;
+
+#### 🍀 Soft Skills
+
+Durante uma das sprints, identifiquei que um dos membros da equipe estava enfrentando dificuldades para utilizar o Figma na criação dos designs de média fidelidade necessários para o frontend. Ele parecia inseguro sobre as funcionalidades da ferramenta e hesitava em pedir ajuda, o que atrasava o andamento da task e comprometia o progresso da sprint. Decidi abordá-lo de forma proativa, ofereci meu auxílio e marcamos uma reunião de pareamento. Durante a reunião, mostrei as principais funcionalidades do Figma, como a criação de componentes, uso de camadas e aplicação de estilos padronizados, sempre explicando cada etapa de forma detalhada. Mantive a paciência enquanto revisávamos as partes mais desafiadoras para ele, garantindo que pudesse aplicar o que aprendeu em tarefas futuras. Além de ajudar na conclusão do design, essa colaboração promoveu um maior sentimento de confiança no membro da equipe, que se sentiu mais à vontade para trabalhar com ferramentas novas. Essa experiência destacou a importância da colaboração em equipe e reforçou o papel do aprendizado compartilhado como parte do sucesso coletivo do time.
+
+Outro destaque foi o momento em que a equipe enfrentava dificuldades em cumprir os prazos devido à falta de foco e comprometimento com as tasks, o que comprometeu o progresso das sprints iniciais. Para resolver isso, sugeri a utilização de ferramentas como MoSCoW e SMART durante o Sprint Planning, permitindo uma priorização clara das tarefas com base na sua importância e impacto no projeto. Por meio do MoSCoW, categorizamos as tasks como "Must Have", "Should Have", "Could Have" e "Won't Have", garantindo que o time se concentrasse no que era essencial para a entrega. Complementamos isso com o uso do SMART, definindo metas específicas, mensuráveis, atingíveis, relevantes e com prazos definidos para cada tarefa. Essa abordagem ajudou a equipe a visualizar o que realmente importava e a dividir o trabalho de forma mais eficiente. Além disso, incentivei o compartilhamento de desafios durante as reuniões e propus prazos menores e mais realistas para evitar sobrecarga. Apesar de resistências iniciais por parte de alguns membros da equipe, mantive a resiliência e continuei apoiando a equipe na adaptação às novas práticas. O progresso foi notado durante a transição da primeira sprint para a terceira sprint, com a equipe conseguindo notar resultados claros consequentes da adoção das novas práticas.
+
+Essas situações foram fundamentais para o desenvolvimento de soft skills essenciais, como comunicação assertiva, resiliência emocional, trabalho em equipe, e organização estratégica, todas indispensáveis em ambientes colaborativos. Ao lidar com desafios como a falta de engajamento, atrasos nos prazos e dificuldades técnicas, pude exercer minha liderança de forma empática, promovendo a colaboração e o aprendizado mútuo. A aplicação de ferramentas como MoSCoW e SMART ajudou a equipe a priorizar tarefas de forma eficaz, reforçando a responsabilidade coletiva e o foco em resultados. Além disso, situações que exigiram paciência e a superação de conflitos contribuíram para um ambiente mais alinhado e motivado, demonstrando que habilidades como adaptabilidade, inteligência emocional e gestão de tempo são cruciais para o sucesso de qualquer projeto.
