@@ -543,7 +543,7 @@ O SIATT Synergy oferece uma solução robusta e eficiente para os desafios de ge
 
 #### 👍 Contribuições Pessoais
 
-Nesse projeto atuei como Scrum Maste, fui responsável por gerenciar todo o ciclo da metodologia Scrum, assegurando que as cerimônias fossem realizadas de forma eficaz e ajudando a equipe a superar barreiras técnicas e sociais. Uma das inovações que implementei foi a introdução do conceito de "Sprint 0", que permitiu à equipe um período inicial de preparação para se familiarizar com o projeto e as tecnologias a serem utilizadas. Isso facilitou uma integração mais rápida e um melhor aproveitamento do tempo desde o início.
+Nesse projeto atuei como Scrum Master, fui responsável por gerenciar todo o ciclo da metodologia Scrum, assegurando que as cerimônias fossem realizadas de forma eficaz e ajudando a equipe a superar barreiras técnicas e sociais. Uma das inovações que implementei foi a introdução do conceito de "Sprint 0", que permitiu à equipe um período inicial de preparação para se familiarizar com o projeto e as tecnologias a serem utilizadas. Isso facilitou uma integração mais rápida e um melhor aproveitamento do tempo desde o início.
 
 Durante as sprints, utilizei técnicas de autoavaliação para identificar dificuldades dos membros da equipe, realizando reuniões de Team Building para integrar todos com as novas tecnologias. Para ajudar os membros que estavam com mais dificuldades, direcionei conteúdos em mídia digital e vídeos, e sugeri que desenvolvedores seniores apadrinhassem colegas menos experientes, promovendo um aprendizado colaborativo e garantindo a continuidade do projeto. Em conjunto com o Product Owner (PO), trabalhei na elaboração de um backlog que equilibrasse as necessidades do cliente com as capacidades técnicas da equipe, utilizando ferramentas como SMART e Planning Poker para definir User Stories e estimar o esforço necessário para cada atividade.
 
@@ -672,7 +672,7 @@ Ao longo do projeto, foquei em garantir a qualidade do código com práticas de 
 #### 💬 Pull Requests
 Para demonstrar minha contribuição ao projeto e como documento as implementações realizadas, disponibilizo abaixo os links para os pull requests que fiz para o frontend e backend do sistema:
 
-<b>💻Frontend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-FrontEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Frontend</b></a>
+<b>💻 Frontend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-FrontEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Frontend</b></a>
 <br>
 <b>🧱 Backend:</b> <a href="https://github.com/BuzzTech-API/ClimaTrack-BackEnd/pulls?q=is%3Apr+is%3Aclosed+author%3AIvan-Duarte"><b>Lista de Pull Requests - Backend</b></a>
 
