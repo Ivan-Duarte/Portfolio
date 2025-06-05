@@ -697,3 +697,224 @@ Durante uma das sprints, identifiquei que um dos membros da equipe estava enfren
 Outro destaque foi o momento em que a equipe enfrentava dificuldades em cumprir os prazos devido à falta de foco e comprometimento com as tasks, o que comprometeu o progresso das sprints iniciais. Para resolver isso, sugeri a utilização de ferramentas como MoSCoW e SMART durante o Sprint Planning, permitindo uma priorização clara das tarefas com base na sua importância e impacto no projeto. Por meio do MoSCoW, categorizamos as tasks como "Must Have", "Should Have", "Could Have" e "Won't Have", garantindo que o time se concentrasse no que era essencial para a entrega. Complementamos isso com o uso do SMART, definindo metas específicas, mensuráveis, atingíveis, relevantes e com prazos definidos para cada tarefa. Essa abordagem ajudou a equipe a visualizar o que realmente importava e a dividir o trabalho de forma mais eficiente. Além disso, incentivei o compartilhamento de desafios durante as reuniões e propus prazos menores e mais realistas para evitar sobrecarga. Apesar de resistências iniciais por parte de alguns membros da equipe, mantive a resiliência e continuei apoiando a equipe na adaptação às novas práticas. O progresso foi notado durante a transição da primeira sprint para a terceira sprint, com a equipe conseguindo notar resultados claros consequentes da adoção das novas práticas.
 
 Essas situações foram fundamentais para o desenvolvimento de soft skills essenciais, como comunicação assertiva, resiliência emocional, trabalho em equipe, e organização estratégica, todas indispensáveis em ambientes colaborativos. Ao lidar com desafios como a falta de engajamento, atrasos nos prazos e dificuldades técnicas, pude exercer minha liderança de forma empática, promovendo a colaboração e o aprendizado mútuo. A aplicação de ferramentas como MoSCoW e SMART ajudou a equipe a priorizar tarefas de forma eficaz, reforçando a responsabilidade coletiva e o foco em resultados. Além disso, situações que exigiram paciência e a superação de conflitos contribuíram para um ambiente mais alinhado e motivado, demonstrando que habilidades como adaptabilidade, inteligência emocional e gestão de tempo são cruciais para o sucesso de qualquer projeto.
+
+---
+
+### Sexto Semestre (2025-1) | AUXIA - Auxilary AI Training 🤖
+
+O projeto desenvolvido no sexto semestre do curso teve como cliente a <a href="https://www.domrock.com.br/"><b>Dom Rock AI</b></a>, uma empresa especializada em Inteligência Artificial e análise de dados. Fundada com o propósito de transformar dados em valor estratégico, a Dom Rock atua nos segmentos corporativo e tecnológico oferecendo plataformas que integram machine learning, modelagem preditiva, automação de decisões e inteligência analítica.
+
+Durante o projeto, a equipe identificou a crescente demanda por soluções capazes de refinar os resultados gerados por modelos LLMs (Large Language Models), amplamente utilizados em assistentes inteligentes e plataformas de atendimento. O desafio era claro: construir uma solução que permitisse o feedback humano supervisionado, capacitando os usuários a avaliar e comparar respostas de modelos de IA com base em critérios objetivos, garantindo que os dados coletados servissem para aprimorar continuamente os próprios modelos utilizados.
+
+Para resolver esse problema, desenvolvemos o <b>AUXIA – Auxiliary AI Training</b>, uma aplicação web projetada para aplicar os princípios de RLHF (Reinforcement Learning from Human Feedback) e RAG (Retrieval-Augmented Generation). A plataforma permite que usuários enviem prompts simultaneamente a duas LLMs distintas (como Gemini e DeepSeek), avaliem as respostas com base em critérios objetivos, escolham a melhor, justifiquem sua decisão e persistam essas informações em um banco de dados para uso em processos de retreinamento de IA.
+
+<ul>
+    <li>
+        <b>Envio de Prompt:</b> O sistema permite que o usuário envie uma pergunta (prompt) simultaneamente para duas LLMs via API. Nessa rota, uma das LLMs vai utilizar o <i>RAG(Retrieval-Augmented Generation)</i>, para enriquecer o seu prompt com o contexto da base vetorizada utilizada no projeto enquanto a outra vai responder apenas com sua base de conheecimentos padrão. No escopo deste projeto, foi utilizada uma base de Dados contendo informações importantes sobro o Alzheimer e cuidados com os pacientes que sofrem dessa doença.
+    </li>
+    <li>
+        <b>Visualização das Respostas:</b> As respostas são exibidas de forma ordenadaa, com destaque para facilitar a leitura e comparação. O usuário primeiro avalia a resposta 1 e depois a resposta 2.
+    </li>
+    <li>
+        <b>Avaliação com Critérios:</b> Cada resposta deve ser avaliada segundo critérios como; <i>Aderência ao Prompt, Coerência e Clareza, Exatidão e Confiabilidade (Veracidade da Resposta), Exposição e Justificativa, Idioma da Resposta é o Mesmo da Pergunta, Resposta Agressiva ou Ofensiva</i>.
+    </li>
+    <li>
+        <b>Escolha da Melhor Resposta:</b> Após avaliação individual, o usuário seleciona a resposta preferida e fornece uma justificativa.
+    </li>
+    <li>
+        <b>Validação de Coerência:</b> O sistema impede que o usuário escolha uma resposta incoerente com as notas atribuídas nos critérios.
+    </li>
+    <li>
+        <b>Persistência da Avaliação:</b> Após validação, todas as informações são registradas em banco de dados MongoDB, enriquecendo o ciclo de feedback da IA.
+    </li>
+    <li>
+        <b>RAG (Retrieval-Augmented Generation):</b> Prompts são enriquecidos com dados vetoriais extraídos de uma base contextualizada sobre Alzheimer.
+    </li>
+    <li>
+        <b>Gestão Administrativa:</b> Inclui login com autenticação OAuth2, painel de controle de usuários, redefinição de senha e permissões específicas para administrador.
+    </li>
+</ul>
+
+O AUXIA é altamente relevante para a <a href="https://www.domrock.com.br/"><b>Dom Rock AI</b></a> por permitir a geração de dados supervisionados de alta qualidade, facilitando o retreinamento dos modelos de linguagem e promovendo decisões mais alinhadas à realidade. Sua estrutura baseada em boas práticas de design, documentação e arquitetura torna o sistema escalável, robusto e pronto para produção.
+
+<h4><details><br>
+<summary>🔎 Detalhes ...</summary>
+    
+* <b>Tela de Envio de Prompt</b>
+
+<img src = "img\6SADS\prompt_screen.JPG"/>
+
+* <b>Tela de Avaliação de Respostas</b>
+
+<img src = "img\6SADS\anwser_a_screen.JPG"/>
+
+* <b>Tela de Avaliação de Respostas</b>
+
+<img src = "img\6SADS\anwser_b_screen.JPG"/>
+
+* <b>Tela de Escolha Final</b>
+
+<img src = "img\6SADS\final_a.JPG"/>
+
+* <b>Modal de Confirmação de Escolha Final</b>
+
+<img src = "img\6SADS\final_redundancy.JPG"/>
+
+* <b>Tela de Escolha Final</b>
+
+<img src = "img\6SADS\final_b.JPG"/>
+
+* <b>Tela de Conclusão</b>
+
+<img src = "img\6SADS\feedback_screen.JPG"/>
+
+* <b>Perfil e Edição para Usuários</b>
+
+<img src = "img\6SADS\user_profile.JPG"/>
+
+* <b>Painel Administrativo</b>
+
+<img src = "img\6SADS\admin_screen.PNG"/>
+
+* <b>Tela de login</b>
+
+<img src = "img\6SADS\login_screen.JPG"/>
+
+
+
+
+</details></h4>
+<br>
+<hr>
+
+#### ✍ Repositório do Projeto: [GitHub - AUXIA](https://github.com/Ivan-Duarte/API_ADS_6SEMESTE_2025.1)
+<p>
+    <a href="https://github.com/Ivan-Duarte/API_ADS_6SEMESTE_2025.1"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+#### 🎬 Vídeo do Projeto:
+<p>
+    <a href="https://www.youtube.com/watch?v=IndOPnzHyrQ"><img src = "https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/></a>
+</p>
+<hr>
+
+#### 👨‍💻 Tecnologias Utilizadas
+
+* Python - Uma linguagem de programação versátil e poderosa, conhecida por sua sintaxe simples e legibilidade. Amplamente usada para desenvolvimento web, ciência de dados e automação, Python oferece uma vasta gama de bibliotecas e frameworks, facilitando a criação de soluções robustas e eficientes;
+
+* FastAPI - Um framework moderno e de alto desempenho para o desenvolvimento de APIs com Python. FastAPI é conhecido por sua velocidade e simplicidade, permitindo criar rapidamente APIs RESTful eficientes e fáceis de manter, com validação automática e suporte para async;
+
+* Typescript - Uma linguagem de programação que estende o JavaScript adicionando tipos estáticos. TypeScript melhora a segurança e a legibilidade do código, ajudando a detectar erros durante o desenvolvimento e facilitando a manutenção de projetos grandes e complexos;
+
+* Vue.js - Um framework progressivo de JavaScript para a construção de interfaces de usuário. Focado na camada de visualização, é leve, reativo e de fácil integração com projetos existentes. Permite criar aplicações web interativas de forma eficiente, utilizando componentes reutilizáveis e uma sintaxe simples baseada em HTML, CSS e JavaScript.
+
+* ChromaDB - Banco de dados vetorial de código aberto, projetado para armazenar, indexar e consultar embeddings — representações vetoriais de dados como texto, imagens ou áudio. Ele é amplamente utilizado em aplicações de inteligência artificial, especialmente em sistemas de recuperação de informação semântica, como busca por similaridade e RAG (Retrieval-Augmented Generation).
+
+* MongoDB - Banco de dados NoSQL, orientado a documentos, projetado para armazenar grandes volumes de dados de forma flexível e escalável. Em vez de utilizar tabelas como nos bancos de dados relacionais, o MongoDB armazena os dados em documentos no formato BSON (uma extensão do JSON), o que permite estruturas complexas e aninhadas.
+
+* LangChain - Biblioteca voltada para o desenvolvimento de aplicações que integram modelos de linguagem com dados externos, como bancos de dados, APIs e documentos. Ele facilita a criação de agentes inteligentes, fluxos de conversação complexos e sistemas RAG, promovendo interações mais dinâmicas e contextuais com LLMs.
+
+* GitHub - Plataforma de hospedagem de código-fonte e controle de versão, que permite colaboração em projetos de software usando Git;
+
+* Jira - Ferramenta de gerenciamento de projetos e rastreamento de problemas, amplamente utilizada por equipes ágeis para planejar, monitorar e gerenciar o desenvolvimento de software e outras atividades colaborativas;
+
+* Miro - Uma plataforma colaborativa online voltada para o trabalho em equipe, especialmente útil em brainstorming, planejamento e design de processos. Oferece quadros digitais interativos onde usuários podem adicionar textos, imagens, diagramas e post-its em tempo real. É amplamente utilizada em metodologias ágeis, workshops e colaboração remota.
+
+* Figma - Plataforma de design colaborativo baseada na nuvem, usada para criar interfaces, protótipos e fluxos de design em tempo real;
+
+* Canva - Plataforma online de design gráfico que permite criar facilmente conteúdos visuais, como apresentações usando templates e ferramentas intuitivas.
+
+#### 👍 Contribuições Pessoais
+
+Nesse projeto atuei como <b>Product Owner (PO)</b> na equipe BuzzTech, sendo responsável por toda a ponte entre cliente e equipe técnica. Essa foi minha última oportunidade de atuar como PO no curso e mergulhei profundamente na função. Antes mesmo da Sprint 0, realizei um estudo intenso sobre o papel do PO no Scrum e metodologias ágeis complementares, como INVEST, MoSCoW e Eisenhower. Ainda antes do kickoff, preparei um documento de prospecção com dados estratégicos sobre a empresa Dom Rock.
+
+Conduzi a criação do Protocolo de Equipe BuzzTech, estabelecendo padrões de documentação, desenvolvimento e comunicação. Elaborei o Backlog completo do produto, partindo dos requisitos do cliente, convertendo-os em épicos e depois em user stories seguindo a metodologia INVEST e práticas de BDD (Behavior Driven Development). Cada US foi documentada com cenários de aceitação, critérios de aceite, DOR e DOD.
+
+Durante as três sprints do projeto, conduzi todas as reuniões de planejamento (Sprint Planning), defini o MVP junto à equipe e cliente, e mantive comunicação constante via Slack. As decisões estratégicas passaram por mim, incluindo a priorização da implementação do RLHF na Sprint 1 e do RAG na Sprint 2. Utilizei o Miro para montar chartboards interativos com as matrizes MoSCoW e Eisenhower, possibilitando decisões mesmo em reuniões assíncronas via Discord e WhatsApp.
+
+<b>Entre os artefatos que desenvolvi, destaco:</b>
+
+* Backlog do Produto + Refinamento de USs
+* RoadMap das 3 fases do projeto
+* Manual de Uso e Catálogo de Funcionalidades
+* Diagrama de Arquitetura do Sistema (Logical Layered Diagram)
+* Story Mapping (User Journey)
+* Slides de apresentação das Sprints 1, 2 e 3
+* Planejamento visual no Miro com priorização
+* Documento de pesquisa sobre a DomRock AI
+* Comunicação e negociação ativa com o cliente via Slack
+
+Além disso, fui responsável por validar todas as entregas técnicas através de PO Check e realizar as apresentações formais do projeto, prezando pela clareza, organização e foco na experiência do usuário. Embora minha atuação tenha sido focada na função de PO, acompanhei de perto a produção técnica, revisando USs e validando integrações entre backend e frontend.
+
+#### 💪 Hard Skills
+Exercitei as seguintes Hard Skills durante esse projeto:
+
+* Planejamento Ágil(INVEST, MoSCoW e Eisenhower) - Consigo ensinar;
+* Estruturação de backlog com BDD, DOR e DOD - Consigo ensinar;
+* Comunicação com cliente e equipe técnica (Active Listening, Storytelling, User Stories Mapping, MoSCoW); Consigo ensinar;
+* Modelagem de arquitetura lógica de sistemas (camadas); Uso com autonomia;
+* Elaboração de manuais, apresentações e documentação visual; Consigo ensinar;
+* Domínio de ferramentas como Slack, Figma, Miro Jira; Consigo ensinar;
+
+#### 🍀 Soft Skills
+
+Ao longo do projeto **AUXIA**, vivi uma das experiências mais intensas e transformadoras da minha trajetória acadêmica. Quando me voluntariei para ser o Product Owner da equipe BuzzTech, sabia que seria minha última oportunidade de exercer esse papel dentro do curso de ADS, e por isso, quis fazer valer cada momento, com seriedade, estratégia e muita dedicação. Desde antes do início oficial do projeto, comecei a estudar profundamente o papel do PO dentro do Scrum. Investi tempo em entender práticas como INVEST, MoSCoW, Eisenhower, Definition of Ready e Definition of Done. Também fiz uma prospecção detalhada sobre o cliente Dom Rock AI, para entender seu mercado, cultura e linguagem, o que me ajudou a estabelecer uma comunicação alinhada e profissional com a empresa desde o primeiro contato.
+
+- **Comunicação Estratégica e Empática**
+
+    Desde o início, busquei me comunicar com clareza, sem abrir mão da empatia. Adaptei minha forma de falar tanto para o stakeholder da Dom Rock, quanto para os membros do Dev Team que tinham perfis, experiências e rotinas muito diferentes entre si. Aprendi a usar ferramentas como Slack, WhatsApp, Miro e reuniões de forma inteligente e direcionada.
+    
+    Mais do que repassar informações, aprendi a influenciar positivamente. Conduzir reuniões de planning e refinamento exigiu de mim mais do que voz ativa, exigiu escuta, equilíbrio e capacidade de manter todos alinhados, mesmo quando havia resistência ou desmotivação, principalmente desmotivação!
+
+- **Liderança Adaptativa**
+
+    Durante o projeto, precisei adaptar meu estilo de liderança muitas vezes. Em diversas ocasiões, enfrentei baixa participação de alguns membros, especialmente nas reuniões de planning. Entendi que não adiantaria forçar presença física, então adaptei: criei votações assíncronas, enquetes no WhatsApp, e usei o Miro para montar chartboards visuais interativos. Assim, mesmo os mais ausentes conseguiam contribuir minimamente com o processo de decisão. Essa flexibilidade me ensinou algo valioso: liderar não é controlar, é **destravar**. E o caminho para isso passa por acolher contextos, mas também manter padrões de qualidade.
+
+    Um dos momentos mais delicados do projeto foi quando precisei aplicar uma advertência formal a um membro da equipe que estava descumprindo o Protocolo de Equipe que eu mesmo havia redigido e que todos haviam aceitado coletivamente. Essa decisão não foi fácil, mas foi necessária para manter a integridade dos acordos e o senso de justiça dentro do time.
+
+    Fui voluntário para aplicar essa advertência por dois motivos: primeiro, porque sabia que outros membros estavam frustrados e querendo tomar uma abordagem mais dura e até punitiva, o que poderia gerar ainda mais ruptura; e segundo, porque eu conhecia melhor o contexto daquele desenvolvedor e queria que a advertência fosse um convite à reintegração, não um ato de intimidação.
+
+    Antes de comunicar a decisão ao membro, convoquei uma reunião com os colegas que votaram pela advertência e propus que fizéssemos um mea culpa coletivo. O ambiente, na época, não era o mais convidativo para pedir ajuda: havia julgamentos, piadas internas e uma pressão silenciosa sobre quem errava. Eu sabia que se a advertência viesse sozinha, sem uma reflexão do grupo, ela poderia afastar ainda mais o colega. Mas se viesse acompanhada de autocrítica, talvez servisse como um recomeço.
+
+    Esse episódio me ensinou sobre o poder do equilíbrio entre liderança formal e sensibilidade humana. Cumpri o protocolo porque era o certo — mas o fiz com propósito e não por vaidade de autoridade. Consegui manter a coesão do grupo, preservar o respeito mútuo e, acima de tudo, oferecer ao colega uma nova chance de se engajar. E ele, de fato, respondeu positivamente após a advertência, participando mais ativamente nas Sprints seguintes e assumindo mais responsabilidades no projeto.
+
+- **Resiliência e Responsabilidade Coletiva**
+
+    O momento mais difícil do projeto aconteceu ao final da **Sprint 1**, e marcou profundamente minha trajetória como Product Owner. Nosso Scrum Master **abandonou o curso sem avisar ninguém e sem concluir as tarefas que lhe haviam sido atribuídas**, incluindo entregáveis críticos que eram pré-requisitos da avaliação institucional. Como consequência direta, fomos drasticamente penalizados pela faculdade: perdemos **80% da nota da Sprint**, mesmo tendo um produto funcional, validado e elogiado pelo cliente.
+
+    Pouco antes da apresentação oficial com o cliente — minutos antes, para ser exato — o professor responsável fez a avaliação formal da equipe. E ao notar a ausência dos critérios atribuídos ao Scrum Master, optou por **zerar a nota da função de PO**, ou seja, a minha. Tentei explicar que o caso era excepcional, que a desistência foi inesperada, e que a equipe como um todo não havia sido negligente. Mas fui recebido com a máxima formalidade: “se não há entregáveis dentro do critério da instituição, então é como se o trabalho não tivesse existido”.
+
+    Era uma situação profundamente frustrante. Tínhamos feito tudo certo no que dizia respeito à entrega de valor: tínhamos um MVP funcional, aprovado pelo cliente e validado em testes; tínhamos planejamento, organização e coesão. E, ainda assim, fomos penalizados por um fator totalmente fora do controle da equipe.
+
+    Com 29 pontos restantes para serem distribuídos entre os 6 membros, eu **fiz uma escolha consciente e simbólica**: pedi para **zerarem a minha nota**. Preferi abrir mão dela para que os desenvolvedores — que haviam trabalhado com afinco e dedicação — pudessem ter uma distribuição mais justa. Não fiz isso por autopunição ou por revolta, mas como uma expressão de liderança e de responsabilidade coletiva. Eu estava ali para proteger a moral da equipe, mesmo que custasse o meu reconhecimento formal.
+
+    Mas o que realmente me exigiu resiliência foi o que aconteceu em seguida. Mesmo sob o peso dessa injustiça, **eu não deixei que a frustração transparecesse durante a apresentação oficial com o cliente**. Quando chegou o momento de apresentar o projeto, assumi postura, retomei o foco e conduzi a apresentação com energia, domínio técnico e profissionalismo — **como se tivesse tirado 10**. Não deixei que meu desânimo comprometesse a experiência do cliente nem afetasse o desempenho do grupo.
+
+    Essa postura impactou profundamente. O cliente elogiou nossa entrega, reconheceu o valor da solução e demonstrou confiança no produto. Isso **fez com que o próprio professor refletisse sobre sua avaliação inicial**. Ele compreendeu que a ausência dos entregáveis do Scrum Master não refletia uma falha do time, mas sim uma situação excepcional. E, mais tarde, **reavaliou nossa nota, atribuindo uma avaliação mais justa**.
+
+    Esse episódio me ensinou mais do que qualquer framework ágil: aprendi sobre **a importância de manter o caráter diante da frustração**, sobre **liderar pelo exemplo, mesmo quando ninguém está olhando**, e sobre como **a resiliência emocional é a base de qualquer postura de liderança real**.
+
+
+- **Autodidatismo com Compartilhamento**
+
+    Todo conhecimento que fui adquirindo ao longo do projeto, compartilhei com o time. Ensinei frameworks como INVEST, BDD e priorização de backlog, construímos juntos as USs e validei cada uma com base em critérios rigorosos. Não me limitei a estudar, me comprometi a **formar e guiar** a equipe. Isso me ensinou que generosidade intelectual e humildade são soft skills poderosas. E que liderar também é ensinar, com paciência, empatia e clareza.
+
+- **Cooperação Multidisciplinar e Senso de Dono**
+
+    Mesmo sem programar diretamente no sistema, participei de todas as etapas críticas: testes, revisão de fluxo, persistência, consistência de feedback, integração de arquitetura, comportamento do RAG e UX. Trabalhei lado a lado com quem estava no código e validei cada feature com atenção técnica e visão de produto.
+
+    Assumi o papel de **ponto de convergência** entre o cliente, o time e o backlog. Em momentos em que as decisões se confundiam, fui o elo de equilíbrio entre o que era ideal, viável e necessário.
+
+Em suma, hoje, ao olhar para trás, vejo que desenvolvi mais do que entregas técnicas — desenvolvi minha capacidade de:
+
+* Me comunicar com clareza e empatia;
+* Adaptar a liderança às limitações do time;
+* Ser resiliente diante de falhas e injustiças;
+* Dividir conhecimento com humildade;
+* Agir com senso de dono, mesmo sem poder formal;
+* Honrar a confiança do cliente e da equipe até o fim.
+
+Mais do que ser Product Owner de um sistema, fui o **guardião da cultura ágil**, o **responsável pelo clima de equipe** e o **defensor da entrega de valor real**. O projeto AUXIA foi um desafio técnico, sim, mas acima de tudo, foi **um exercício profundo de humanidade, ética e propósito**.
+
+Essa experiência me marcou. E hoje, me sinto pronto para liderar novos projetos com ainda mais consciência, maturidade e visão sistêmica.
+
