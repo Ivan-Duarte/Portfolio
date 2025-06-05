@@ -52,7 +52,7 @@ Fica a dica! 😄👍
 
 <table align="center">
     <tr>
-        <th> LP e Marcação</th>
+        <th>LP e Marcação</th>
         <th>Frameworks Libs</th>
         <th>Banco de Dados</th>
         <th>DevOps e Servers</th>
@@ -216,7 +216,8 @@ Fica a dica! 😄👍
     <tr align="center">
         <td>
         </td>
-        <td>  
+        <td> 
+            <a href="https://vuejs.org/"><img src = "https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"/></a> 
         </td>
         <td>
         </td>
