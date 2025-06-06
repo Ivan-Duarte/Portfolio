@@ -743,35 +743,35 @@ O AUXIA é altamente relevante para a <a href="https://www.domrock.com.br/"><b>D
     
 * <b>Tela de Envio de Prompt</b>
 
-<img src = "img\6SADS\prompt_screen.JPG"/>
+<img src = "img\6SADS\prompt_screen.PNG"/>
 
 * <b>Tela de Avaliação de Respostas</b>
 
-<img src = "img\6SADS\anwser_a_screen.JPG"/>
+<img src = "img\6SADS\anwser_a_screen.PNG"/>
 
 * <b>Tela de Avaliação de Respostas</b>
 
-<img src = "img\6SADS\anwser_b_screen.JPG"/>
+<img src = "img\6SADS\anwser_b_screen.PNG"/>
 
 * <b>Tela de Escolha Final</b>
 
-<img src = "img\6SADS\final_a.JPG"/>
+<img src = "img\6SADS\final_a.PNG"/>
 
 * <b>Modal de Confirmação de Escolha Final</b>
 
-<img src = "img\6SADS\final_redundancy.JPG"/>
+<img src = "img\6SADS\final_redundancy.PNG"/>
 
 * <b>Tela de Escolha Final</b>
 
-<img src = "img\6SADS\final_b.JPG"/>
+<img src = "img\6SADS\final_b.PNG"/>
 
 * <b>Tela de Conclusão</b>
 
-<img src = "img\6SADS\feedback_screen.JPG"/>
+<img src = "img\6SADS\feedback_screen.PNG"/>
 
 * <b>Perfil e Edição para Usuários</b>
 
-<img src = "img\6SADS\user_profile.JPG"/>
+<img src = "img\6SADS\user_profile.PNG"/>
 
 * <b>Painel Administrativo</b>
 
@@ -779,7 +779,7 @@ O AUXIA é altamente relevante para a <a href="https://www.domrock.com.br/"><b>D
 
 * <b>Tela de login</b>
 
-<img src = "img\6SADS\login_screen.JPG"/>
+<img src = "img\6SADS\login_screen.PNG"/>
 
 
 
