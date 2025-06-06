@@ -711,7 +711,7 @@ Para resolver esse problema, desenvolvemos o <b>AUXIA – Auxiliary AI Training<
 
 <ul>
     <li>
-        <b>Envio de Prompt:</b> O sistema permite que o usuário envie uma pergunta (prompt) simultaneamente para duas LLMs via API. Nessa rota, uma das LLMs vai utilizar o <i>RAG(Retrieval-Augmented Generation)</i>, para enriquecer o seu prompt com o contexto da base vetorizada utilizada no projeto enquanto a outra vai responder apenas com sua base de conheecimentos padrão. No escopo deste projeto, foi utilizada uma base de Dados contendo informações importantes sobro o Alzheimer e cuidados com os pacientes que sofrem dessa doença.
+        <b>Envio de Prompt:</b> O sistema permite que o usuário envie uma pergunta (prompt) simultaneamente para duas LLMs via API. Nessa rota, uma das LLMs vai utilizar o <i>RAG(Retrieval-Augmented Generation)</i>, para enriquecer o seu prompt com o contexto da base vetorizada utilizada no projeto enquanto a outra vai responder apenas com sua base de conhecimentos padrão. No escopo deste projeto, foi utilizada uma base de Dados contendo informações importantes sobro o Alzheimer e cuidados com os pacientes que sofrem dessa doença.
     </li>
     <li>
         <b>Visualização das Respostas:</b> As respostas são exibidas de forma ordenadaa, com destaque para facilitar a leitura e comparação. O usuário primeiro avalia a resposta 1 e depois a resposta 2.
