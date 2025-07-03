@@ -243,9 +243,9 @@ Fica a dica! 😄👍
 
 O projeto desenvolvido no segundo semestre do curso teve como cliente a <a href="https://trackcash.com.br/"><b>TrackCash</b></a>, uma empresa de gestão financeira voltada para pequenos empreendedores, e-commerces e donos de estabelecimentos. Os requisitos foram apresentados durante a reunião de Kick-Off, pelo CEO e fundador, Ewerton Santos.
 
-A empresa apresentou a necessidade de uma aplicação para centralizar os cadastros de clientes, integrando suas respectivas plataformas de pagamento e venda, facilitando a gestão dessas informações de forma organizada e segura.
+A empresa tinha um problema na centralização dos cadastros de clientes, utilizavam diversos sistemas dependendo do cliente específico o que dificultava a integração com suas respectivas plataformas de pagamento e venda.
 
-Como solução, minha equipe desenvolveu uma aplicação desktop on-premise utilizando POO com linguagem Java e MySQL como banco de dados relacional. A aplicação, voltada principalmente para os administradores da TrackCash, pode ser utilizada também por clientes externos. As principais funcionalidades incluem:
+Como solução, minha equipe desenvolveu uma aplicação desktop on-premise utilizando POO com linguagem Java e MySQL como banco de dados relacional, para sanar esse problema que a falta de centralização dos cadastros de clientes gerava. A aplicação, voltada principalmente para os administradores da TrackCash, pode ser utilizada também por clientes externos. As principais funcionalidades incluem:
 
 * Sistema de login e autenticação para clientes e administradores.
 * Cadastro de clientes e canais de vendas.
